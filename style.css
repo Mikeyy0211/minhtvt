@@ -18,7 +18,6 @@
 .profile-box{
     background: #ffae00;
     text-align: center;
-    padding: 40px 90px;
     color: #fff;
     position: relative;
     border-radius: 20px;
@@ -36,9 +35,44 @@
     top: 40px;
 }
 .profile-pic{
-    width: 15px;
+    width: 150px;
     border-radius: 50%;
     background: #fff;
     padding: 6px;
+    margin-top: 40px;
 }
-
+.profile-bottom{
+    background: #fff;
+    color: #999;
+    width: 100%;
+    height: 250;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.profile-bottom img{
+    width: 20px;
+    margin-top:7px;
+}
+.profile-box{
+    color: #055854;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight:  600;
+    font-size: 16px;
+}
+.profile-box h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.social-media img{
+    width: 20px;
+    margin: 20px px;
+    cursor: pointer;
+}
